@@ -1,0 +1,35 @@
+header{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 25px;
+  border-bottom: 1px solid #ccc;
+}
+.left{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.left img{
+  width: 50px;
+}
+.right{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.span{
+  display: flex;
+  background: #fb1;
+  padding: 10px;
+  border-radius: 4px;
+}
+.span::before{
+  content: '';
+  display: inline-block;
+  width: 14px;
+  height: 17px;
+  background: url(../img/usuario.svg) no-repeat center center;
+  position: relative;
+  margin-right: 5px;
+  top: -1px;
+}

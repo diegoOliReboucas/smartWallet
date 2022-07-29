@@ -1,0 +1,40 @@
+main{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  height: 100vh;
+}
+.inputArea{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.inputArea h3{
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+.button{
+  margin-top: 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: .4rem;
+  background: #fb1;
+  color: #764701;
+  min-width: 8rem;
+  padding: .8rem 1.2rem;
+  box-sizing: border-box;
+  transition: .1s;
+}
+.button:hover, button:focus{
+  outline: none;
+  box-shadow: 0 0 0 3px #fea, 0 0 0 4px #fb1;
+}
+.imgArea{
+  background: #DAA520;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
